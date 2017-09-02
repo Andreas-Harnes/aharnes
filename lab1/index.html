@@ -16,6 +16,7 @@ in html
         <title>My web page</title>
         
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
       
 
     </head>
@@ -28,34 +29,43 @@ in html
             <h1>Andreas Harnes </h1>
         </header>
         <nav>
-            <hr width="50%" />
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+            <hr  width="50%" />
+            <a id="currentPage" href="index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/contact.html">Contact</a>
         </nav
 
 
         <br /><br />
 
         <main>
-            <figure>
-                <img src="img/andreas_harnes.jpg" alt = "A picture" />
-            </figure>
-
-            <div>
-                <strong> </strong>
-                
-            </div>
-
+                <figure id="me">
+                    <img  id="meIMG" src="img/andreas_harnes.jpg" alt = "A picture" />
+                </figure>
+    
+                <div id="welcomeText">
+                    <p>Welcome!</p>
+                    
+                    <p>This is the page about me. My name is Andreas and I'm an exchange student from Norway. I plan to stay in California for one semester. If there is anything you want to ask me 
+                    send me a question on the "contact" page.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate, augue eget tristique luctus, lorem magna lobortis purus, eget rutrum arcu felis et nunc. 
+                    Maecenas arcu nisi, mollis vel porttitor et, euismod vitae arcu. Nunc eu turpis hendrerit, pretium nulla feugiat, gravida urna. Mauris vel massa imperdiet, pharetra mi ac, '
+                    gravida mi. Cras facilisis, turpis at condimentum lobortis, neque sapien elementum ex, a facilisis diam neque et arcu. Proin lectus tortor, molestie vulputate nibh in, 
+                    venenatis commodo ligula. Donec in volutpat magna, in elementum orci. Nulla rhoncus faucibus quam nec interdum. Nullam et nulla nec libero dapibus convallis. Fusce feugiat 
+                    bibendum iaculis. Aliquam pulvinar tellus augue. Praesent molestie lacus non massa ultrices, sit amet cursus mi mollis. Fusce vel est ut neque hendrerit commodo. Morbi sapien 
+                    libero, pulvinar quis ante at, viverra tincidunt nisi. Quisque mattis leo pulvinar augue blandit, eu tincidunt mauris vehicula.</p>
+                </div>
+        </main>
 
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
-
-              <hr>
-                CST352 &copy; Harnes
-              </hr>
-
+            <hr>
+                <img src="img/csumb-logo.png"></img> 
+            
+                CST352 &copy; Harnes 
+            </hr>
         </footer>
         <!-- closing footer -->
 
