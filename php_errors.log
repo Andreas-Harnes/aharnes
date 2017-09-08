@@ -1,0 +1,10 @@
+[07-Sep-2017 17:36:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/aharnes/practice/randombgColor.php on line 14
+[07-Sep-2017 17:36:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/aharnes/practice/randombgColor.php on line 14
+[07-Sep-2017 18:00:09 UTC] PHP Fatal error:  Call to undefined function rgba() in /home/ubuntu/workspace/aharnes/practice/randombgColor.php on line 8
+[07-Sep-2017 18:00:09 UTC] PHP Stack trace:
+[07-Sep-2017 18:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/practice/randombgColor.php:0
+[07-Sep-2017 18:00:09 UTC] PHP   2. getRGBA() /home/ubuntu/workspace/aharnes/practice/randombgColor.php:22
+[07-Sep-2017 18:00:09 UTC] PHP Fatal error:  Call to undefined function rgba() in /home/ubuntu/workspace/aharnes/practice/randombgColor.php on line 8
+[07-Sep-2017 18:00:09 UTC] PHP Stack trace:
+[07-Sep-2017 18:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/practice/randombgColor.php:0
+[07-Sep-2017 18:00:09 UTC] PHP   2. getRGBA() /home/ubuntu/workspace/aharnes/practice/randombgColor.php:22
