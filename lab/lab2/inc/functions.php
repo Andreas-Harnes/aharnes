@@ -6,7 +6,7 @@
             }
         
             displayPoints($randomValue0,$randomValue1, $randomValue2);   
-        }
+    }
 
 
     function displaySymbol($randomNumber, $pos) {
