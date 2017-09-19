@@ -1,0 +1,80 @@
+body {
+  background-color: White;
+}
+
+#currentPage {
+    font-weight: bold;
+}
+
+header, nav, footer, h2 {
+    text-align: center;
+}
+header {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+#jLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+nav {
+    background-color: #EB2E2C;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 2em;
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 2em;
+    color: #323232;
+    font-family: 'Lora', serif;
+}
+
+#infoText {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-size: 1.2em;
+    display: block;
+}
+
+#imgJVM {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 60%;
+}
+
+
+
+
+
