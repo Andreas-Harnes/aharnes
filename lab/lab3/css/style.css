@@ -1,0 +1,19 @@
+body {
+	width:950px;
+	margin:0 auto;
+	text-align:center;
+}
+
+img {
+	width:15%;
+	padding-right:2px;
+	vertical-align:middle;
+}
+
+.ace {
+	border:5px solid yellow;
+}
+
+.currentCards {
+	font-size: 2em;
+}
