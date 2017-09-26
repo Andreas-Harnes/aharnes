@@ -37,6 +37,9 @@
 
         <form>
             <input type="text" name="keyword" placeholder="Keyword"/>
+            <input type="radio" name="layout" value="horizontal"/> Horizontal
+            <input type="radio" name="layout" value="vertical" /> vertical
+
             <input type="submit" value="Submit" />
         </form>
 
