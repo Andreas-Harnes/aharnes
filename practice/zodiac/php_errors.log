@@ -1,0 +1,10 @@
+[26-Sep-2017 17:36:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 4
+[26-Sep-2017 17:37:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 7
+[26-Sep-2017 17:37:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 9
+[26-Sep-2017 17:53:26 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 6
+[26-Sep-2017 18:06:12 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 4
+[26-Sep-2017 18:11:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 32
+[26-Sep-2017 18:11:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 32
+[26-Sep-2017 18:11:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 32
+[26-Sep-2017 18:19:09 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 17
+[26-Sep-2017 18:22:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/aharnes/practice/zodiac/zodiac/index.php on line 24
