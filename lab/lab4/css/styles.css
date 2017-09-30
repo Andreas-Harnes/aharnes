@@ -1,16 +1,45 @@
-    body{
-        opacity:0.9;
-        width:100%;
-        text-align:center;
-        color:yellow;
-    }
+body {
+    padding-top: 30px;
+    opacity:1;
+    width:100%;
+    text-align:center;
+}
+
+h2 {
+    color:yellow;
+}
+
+input {
+    font-size: 3em;
+    color: black;
+}
+
+#carousel-example-generic {
+    margin: 0 auto;   
+    width: 100%;
+    padding-top: 30px;
+}
+
+.carousel-inner {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+
+.formStyle {
+    border-radius: 50px;
+}
     
-    input {
-        font-size: 3em;
-        color: black;
-    }
-    
-    #carousel-example-generic {
-         margin: 0 auto;   
-         width: 700px;
-    }
+#allOptions {
+    display: block;
+    margin: auto;
+    width: 20%;
+    background-color: white;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

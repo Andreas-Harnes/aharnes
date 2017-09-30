@@ -4,7 +4,7 @@
 function getImageURLs($keyword, $orientation="horizontal") {
     $curl = curl_init();
     curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://pixabay.com/api/?key=6509304-1a478e64b31289b6fb1278719&q=$keyword&image_type=photo&orientation=$orientation&safesearch=true&per_page=100",
+      CURLOPT_URL => "https://pixabay.com/api/?key=5589438-47a0bca778bf23fc2e8c5bf3e&q=$keyword&image_type=photo&orientation=$orientation&safesearch=true&per_page=100",
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_TIMEOUT => 30,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
@@ -19,7 +19,9 @@ function getImageURLs($keyword, $orientation="horizontal") {
     
     $imageURLs = array();
     for ($i = 0; $i < 99; $i++) {
-    $imageURLs[] = $data['hits'][$i]['webformatURL'];
+      if (!empty($data['hits'][$i]['webformatURL'])) {
+        $imageURLs[] = $data['hits'][$i]['webformatURL'];
+      }
     }
     $err = curl_error($curl);
     curl_close($curl);
