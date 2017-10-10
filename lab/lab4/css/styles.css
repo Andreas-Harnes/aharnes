@@ -15,7 +15,7 @@ input {
 }
 
 #carousel-example-generic {
-    margin: 0 auto;   
+    margin: 0 auto;
     width: 100%;
     padding-top: 30px;
 }
@@ -30,7 +30,7 @@ input {
 .formStyle {
     border-radius: 50px;
 }
-    
+
 #allOptions {
     display: block;
     margin: auto;

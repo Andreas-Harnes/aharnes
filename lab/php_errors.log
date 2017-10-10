@@ -5,3 +5,6 @@
 [21-Sep-2017 18:12:32 UTC] PHP Fatal error:  Call to undefined function getImgaeURLs() in /home/ubuntu/workspace/aharnes/lab/lab4/index.php on line 21
 [21-Sep-2017 18:12:32 UTC] PHP Stack trace:
 [21-Sep-2017 18:12:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab4/index.php:0
+[05-Oct-2017 18:42:04 UTC] PHP Fatal error:  Call to undefined function getAllQuotes() in /home/ubuntu/workspace/aharnes/lab/lab5/index.php on line 52
+[05-Oct-2017 18:42:04 UTC] PHP Stack trace:
+[05-Oct-2017 18:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab5/index.php:0
