@@ -42,3 +42,10 @@ body {
     margin-right: auto;
     border-radius: 40px;
 }
+
+#authorIframe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {}

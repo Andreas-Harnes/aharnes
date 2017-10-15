@@ -3,24 +3,25 @@
     include '../../dbconnection.php';
     $conn = getConnection();
 
-
-    function getRandomQuote() {
-        global $conn;
-
-        $sql = "SELECT authorId, quote, firstName, lastName
+    $sql = "SELECT authorId, quote, firstName, lastName
                 FROM q_quote
                 NATURAL JOIN q_author
                 ORDER BY RAND()
                 LIMIT 1 ";
 
-            $stmt = $conn -> prepare ($sql);
-            $stmt -> execute();
-            $record = $stmt -> fetch();
+    $stmt = $conn -> prepare ($sql);
+    $stmt -> execute();
+    $record = $stmt -> fetch();
+
+
+    function getRandomQuote() {
+        global $record;
 
         echo "<em>" . $record['quote'] . "</em><br />";
-        echo "<a href='getAuthorInfo.php?authorId=" . $record['authorId'] . "' target='_blank'>- " . $record['firstName'] . " " . $record['lastName'] . "</a>";
+        echo "<a target='authorInfo' href='getAuthorInfo.php?authorId=" . $record['authorId'] . "' >- " . $record['firstName'] . " " . $record['lastName'] . "</a>";
 
     }
+
 
 ?>
 
@@ -41,6 +42,9 @@
         <h2>Random quote</h2>
         <?=getRandomQuote()?>
     </div>
+
+    <iframe id="authorIframe" name="authorInfo" width="600" height=1000></iframe>
+
 
     </body>
 </html>
