@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+em {
+    display: block;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+body {
+    background-color: #A013C4;
+}
+
+#currentAuthorInfo {
+    display: block;
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}

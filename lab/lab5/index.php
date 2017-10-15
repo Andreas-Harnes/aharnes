@@ -1,68 +1,46 @@
 <?php
 
-$host = 'localhost'; //cloud 9 database
-$dbname = 'quotes';
-$username = 'root';
-$password = '';
+    include '../../dbconnection.php';
+    $conn = getConnection();
 
-$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 
-$dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    function getRandomQuote() {
+        global $conn;
 
-function getMaleAuthors() {
+        $sql = "SELECT authorId, quote, firstName, lastName
+                FROM q_quote
+                NATURAL JOIN q_author
+                ORDER BY RAND()
+                LIMIT 1 ";
 
-    global $dbConn;
+            $stmt = $conn -> prepare ($sql);
+            $stmt -> execute();
+            $record = $stmt -> fetch();
 
-    $sql = "SELECT firstName, lastName, gender FROM q_author WHERE gender = 'M'";
-
-    $stmt = $dbConn -> prepare ($sql);
-
-    $stmt -> execute();
-
-    $records = $stmt -> fetchAll();  //retrieves all records;
-
-    foreach($records as $record) {
-
-        echo $record['firstName'] . "  " . $record['lastName'] . "<br />";
+        echo "<em>" . $record['quote'] . "</em><br />";
+        echo "<a href='getAuthorInfo.php?authorId=" . $record['authorId'] . "' target='_blank'>- " . $record['firstName'] . " " . $record['lastName'] . "</a>";
 
     }
-
-}
-
-function getAllQuotes() {
-    global $dbConn;
-
-    $sql = "SELECT quote FROM q_quote";
-
-    $stmt = $dbConn -> prepare ($sql);
-
-    $stmt -> execute();
-
-    $records = $stmt -> fetchAll();  //retrieves all records;
-
-    foreach($records as $record) {
-
-        echo $record['quote'] . "<br />";
-
-    }
-}
-
 
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lab 5: Random Famous Quote Generator </title>
+        <title> Lab 5: Random quotes </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            #currentAuthorInfo {
+                margin-top: 200px;
+            }
+        </style>
     </head>
     <body>
 
-<h1> Male Authors </h1>
-<?=getMaleAuthors()?>
-
-<h1> All Quotes </h1>
-<?=getAllQuotes()?>
-
+    <div id="currentAuthorInfo">
+        <h2>Random quote</h2>
+        <?=getRandomQuote()?>
+    </div>
 
     </body>
 </html>
