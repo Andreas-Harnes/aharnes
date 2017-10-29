@@ -1,7 +1,7 @@
 <?php
-function getConnection() {
+function getConnection($dbname='quotes') {
     $host = 'localhost'; //cloud 9 database
-    $dbname = 'quotes';
+    //$dbname = 'quotes';
     $username = 'root';
     $password = '';
 

@@ -10,3 +10,296 @@
 [05-Oct-2017 18:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab5/index.php:0
 [13-Oct-2017 23:58:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/aharnes/lab/lab5/getAuthorInfo.php on line 8
 [14-Oct-2017 00:00:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/aharnes/lab/lab5/getAuthorInfo.php on line 8
+[17-Oct-2017 17:49:47 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '{' in /home/ubuntu/workspace/aharnes/dbconnection.php on line 2
+[17-Oct-2017 17:49:47 UTC] PHP Stack trace:
+[17-Oct-2017 17:49:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:54:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 11
+[17-Oct-2017 17:54:46 UTC] PHP Stack trace:
+[17-Oct-2017 17:54:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:54:46 UTC] PHP   2. displayCountryOptions() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:39
+[17-Oct-2017 17:55:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 11
+[17-Oct-2017 17:55:11 UTC] PHP Stack trace:
+[17-Oct-2017 17:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:55:11 UTC] PHP   2. displayCountryOptions() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:39
+[17-Oct-2017 17:56:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 11
+[17-Oct-2017 17:56:10 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:10 UTC] PHP   2. displayCountryOptions() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:43
+[17-Oct-2017 17:56:33 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 3
+[17-Oct-2017 17:56:33 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:33 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 3
+[17-Oct-2017 17:56:33 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 4
+[17-Oct-2017 17:56:33 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:34 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 3
+[17-Oct-2017 17:56:34 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:34 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 3
+[17-Oct-2017 17:56:34 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 4
+[17-Oct-2017 17:56:34 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[17-Oct-2017 17:56:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 4
+[17-Oct-2017 17:56:43 UTC] PHP Stack trace:
+[17-Oct-2017 17:56:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab6/index.php:0
+[24-Oct-2017 18:10:26 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php on line 7
+[24-Oct-2017 18:42:04 UTC] PHP Fatal error:  Call to undefined function authorList() in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 37
+[24-Oct-2017 18:42:04 UTC] PHP Stack trace:
+[24-Oct-2017 18:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:42:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:42:39 UTC] PHP Stack trace:
+[24-Oct-2017 18:42:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:42:39 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:37
+[24-Oct-2017 18:42:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:42:40 UTC] PHP Stack trace:
+[24-Oct-2017 18:42:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:42:40 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:37
+[24-Oct-2017 18:42:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:42:41 UTC] PHP Stack trace:
+[24-Oct-2017 18:42:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:42:41 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:37
+[24-Oct-2017 18:43:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:43:19 UTC] PHP Stack trace:
+[24-Oct-2017 18:43:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:43:19 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:37
+[24-Oct-2017 18:43:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:43:20 UTC] PHP Stack trace:
+[24-Oct-2017 18:43:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:43:20 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:37
+[24-Oct-2017 18:44:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:44:18 UTC] PHP Stack trace:
+[24-Oct-2017 18:44:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:44:18 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:37
+[24-Oct-2017 18:45:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:09 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:09 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:36
+[24-Oct-2017 18:45:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:51 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:51 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:35
+[24-Oct-2017 18:45:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:52 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:52 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:35
+[24-Oct-2017 18:45:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:52 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:52 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:35
+[24-Oct-2017 18:45:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:52 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:52 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:35
+[24-Oct-2017 18:45:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:52 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:52 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:35
+[24-Oct-2017 18:45:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:45:53 UTC] PHP Stack trace:
+[24-Oct-2017 18:45:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:45:53 UTC] PHP   2. getAuthors() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:35
+[24-Oct-2017 18:47:36 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 12
+[24-Oct-2017 18:47:36 UTC] PHP Stack trace:
+[24-Oct-2017 18:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:47:36 UTC] PHP   2. authorList() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:38
+[24-Oct-2017 18:47:36 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 12
+[24-Oct-2017 18:47:36 UTC] PHP Stack trace:
+[24-Oct-2017 18:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:47:36 UTC] PHP   2. authorList() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:38
+[24-Oct-2017 18:47:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/aharnes/lab/lab7/admin.php on line 13
+[24-Oct-2017 18:47:36 UTC] PHP Stack trace:
+[24-Oct-2017 18:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:0
+[24-Oct-2017 18:47:36 UTC] PHP   2. authorList() /home/ubuntu/workspace/aharnes/lab/lab7/admin.php:38
+[26-Oct-2017 17:42:53 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php on line 8
+[26-Oct-2017 17:42:54 UTC] PHP Stack trace:
+[26-Oct-2017 17:42:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php:0
+[26-Oct-2017 17:42:54 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php on line 8
+[26-Oct-2017 17:42:54 UTC] PHP Stack trace:
+[26-Oct-2017 17:42:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php:0
+[26-Oct-2017 17:42:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php on line 9
+[26-Oct-2017 17:42:54 UTC] PHP Stack trace:
+[26-Oct-2017 17:42:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php:0
+[29-Oct-2017 01:47:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 89
+[29-Oct-2017 01:50:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 89
+[29-Oct-2017 01:50:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(161): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 89
+[29-Oct-2017 01:55:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:55:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:55:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:55:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:55:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:55:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:55:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:57:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:57:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:58:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:58:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:58:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:58:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:59:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:59:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:59:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 01:59:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:01:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'q_author'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(90): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(162): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 90
+[29-Oct-2017 02:49:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/aharnes/lab/lab6/index.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(163): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 89

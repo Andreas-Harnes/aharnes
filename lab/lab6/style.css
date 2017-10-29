@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+body {
+    background-color: #BBA3D0;
+    text-align: center;
+}
+
+em {
+    font-style: oblique;
+}
+
+#authorName {
+    color: #008DAB;
+    text-decoration: underline;
+}
+
+#singleQuote {
+    margin-bottom: 3px;
+}
