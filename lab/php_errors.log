@@ -303,3 +303,18 @@ Stack trace:
 #1 /home/ubuntu/workspace/aharnes/lab/lab6/index.php(163): displayQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/aharnes/lab/lab6/index.php on line 89
+[31-Oct-2017 18:02:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php on line 26
+[31-Oct-2017 18:43:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab7/loginProcess.php on line 26
+[05-Nov-2017 02:25:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php on line 26
