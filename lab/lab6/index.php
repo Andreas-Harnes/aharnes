@@ -38,8 +38,6 @@
 
 
         foreach ($records as $record) {
-            // echo "<option>" . $record['category'] . "</option>";
-
             echo "<option " ;
 
             if ($record['category'] == $_GET['category'] ) {
