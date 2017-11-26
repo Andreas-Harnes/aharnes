@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AJAX: Sign Up Page</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+   <!--Bootstrap files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+
+    <script>
+        function getCity() {
+            $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: { "zip": $("#zip").val() },
+                success: function(data, status) {
+                    if(data) {
+                        $("#city").html(data.city);
+                        $("#lat").html(data.latitude);
+                        $("#long").html(data.longitude);
+                        $("#wrongZip").html("");
+                    } else {
+                        $("#wrongZip").html(" Zip not found");
+                        $("#city").html("");
+                        $("#lat").html("");
+                        $("#long").html("");
+                    }
+                },
+            });
+        }
+
+        function getCounties() {
+            $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                dataType: "json",
+                data: { "state": $("#state").val() },
+                success: function(data, status) {
+                    $('#county').html("<option> Select one </option>");
+                    for (i = 0; i < data.length; i++) {
+                        $("#county").append("<option>" + data[i].county + "</option>")
+                    }
+                },
+            });
+        }
+
+        function checkUsername() {
+            $.ajax({
+                type: "GET",
+                url: "checkUsernameAPI.php",
+                dataType: "json",
+                data: { "username":$("#username").val() },
+                success: function(data, status) {
+                    if (data == false ) {
+                        document.getElementById("img1").src = "img/1.png";
+                    } else {
+                        document.getElementById("img1").src = "img/2.png";
+                    }
+                },
+            });
+        }
+
+        function checkPassword() {
+            if($("#password1").val() == $("#password2").val()) {
+                $("#passwordCheck").html("This password works!");
+                $("#passwordCheck").css('color', 'green');
+            } else {
+                $("#passwordCheck").html("The passwords don't match!");
+                $("#passwordCheck").css('color', 'red');
+            }
+        }
+
+        $(document).ready(function() {
+            $("#zip").change(function() { getCity() });
+            $("#state").change(function() { getCounties() });
+            $("#username").change(function() { checkUsername() });
+            $("#password2").change(function() { checkPassword() });
+        });
+    </script>
+    <div id="bodyDiv">
+        <h1> Sign Up Form </h1>
+        <form onsubmit="return false">
+            <fieldset>
+                <legend>Sign Up</legend>
+                First Name: <input type="text"><br>
+                Last Name: <input type="text"><br>
+                Email: <input type="text"><br>
+                Phone Number:<input type="text"><br><br>
+                Zip Code: <input type="text" id="zip"><span id="wrongZip"></span><br>
+                City: <span id="city"></span>
+                <br> Latitude: <span id="lat"></span>
+                <br> Longitude: <span id="long"></span>
+                <br><br> State:
+                <select id="state">
+                    <option>--- Select One ---</option>
+                    <option value="ak">Alaska </option>
+                    <option value="az">Arizona </option>
+                    <option value="ca">California </option>
+                    <option value="hi">Hawaii </option>
+                </select><br> Select a County: <select id="county">
+                    <option ></option>
+                </select><br>
+                Desired Username: <input type="text" id="username">
+                <img id="img1" height="30" width="30"></img><br>
+                Password: <input id="password1" type="password"><br>
+                Type Password Again: <input id="password2" type="password"><span id="passwordCheck"></span><br>
+                <input type="submit" value="Sign up!">
+            </fieldset>
+        </form>
+    </div>
+    </body>
+</html>

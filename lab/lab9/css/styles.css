@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+    width: 30%;
+    background-color: #9E90AA;
+}
+
+#bodyDiv {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
