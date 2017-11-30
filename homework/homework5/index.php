@@ -12,12 +12,12 @@ function checkLogin() {
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lab 7: Admin Login</title>
+        <title> Homework 5: AJAX</title>
     </head>
     <body>
 
 
-        <h1> Admin Login</h1>
+        <h1> Quiz Login</h1>
 
         <form method="POST" action="loginProcess.php">
 
