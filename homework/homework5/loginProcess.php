@@ -12,7 +12,7 @@ $password = sha1($_POST['password']);
 
 
 $sql = "SELECT *
-        FROM q_quiz
+        FROM q_login
         WHERE username = :username
         AND   password = :password";
 
@@ -31,9 +31,8 @@ if (empty($record)) {
 
 } else {
 
-    $_SESSION['userName'] = $record['userName'];
-    $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];
-    header('Location: admin.php'); //redirects users to admin page
+    $_SESSION['userId'] = $record['userId'];
+    header('Location: quiz.php');
 
 }
 

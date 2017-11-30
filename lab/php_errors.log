@@ -318,3 +318,5 @@ Stack trace:
 #0 /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php(26): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/aharnes/lab/lab7/addAuthor.php on line 26
+[28-Nov-2017 19:18:06 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '(' in /home/ubuntu/workspace/aharnes/lab/lab10/index.php on line 23
+[28-Nov-2017 19:24:12 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting '{' in /home/ubuntu/workspace/aharnes/lab/lab10/index.php on line 33

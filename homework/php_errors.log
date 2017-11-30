@@ -1,2 +1,200 @@
 [10-Oct-2017 06:40:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/aharnes/homework/homework3/index.php on line 16
 [10-Oct-2017 08:15:29 UTC] PHP Parse error:  syntax error, unexpected 'You' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/aharnes/homework/homework3/index.php on line 83
+[30-Nov-2017 03:53:40 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/aharnes/homework/homework5/quiz.php on line 6
+[30-Nov-2017 03:53:40 UTC] PHP Stack trace:
+[30-Nov-2017 03:53:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/aharnes/homework/homework5/quiz.php:0
+[30-Nov-2017 07:55:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null' in /home/ubuntu/workspace/aharnes/homework/homework5/submitScore.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/submitScore.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/submitScore.php on line 17
+[30-Nov-2017 09:16:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:16:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:16:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:16:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:17:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:18:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:19:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:20:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
+[30-Nov-2017 09:21:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 17
+[30-Nov-2017 09:21:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 17
+[30-Nov-2017 09:24:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 18
+[30-Nov-2017 09:24:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 18
+[30-Nov-2017 09:25:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 18
+[30-Nov-2017 09:26:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 18
+[30-Nov-2017 09:28:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/aharnes/homework/homework5/getHighscoresAPI.php on line 16
